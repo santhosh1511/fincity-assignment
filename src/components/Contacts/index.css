@@ -1,0 +1,37 @@
+.contacts-bg-container {
+    height: 100vh;
+    background-color: #f9faff;
+  }
+  
+  .contacts-container {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    color: #333;
+    font-family: 'Playfair Display';
+    font-size: 64px;
+    font-weight: 700;
+  }
+  .SocialLinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .socialLinksLogo{
+    height: 40px;
+    width: 40px;
+  }
+  .copyrights{
+    color: #828282;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+ 

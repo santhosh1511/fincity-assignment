@@ -1,0 +1,30 @@
+.header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Comfortaa';
+    background-color: #ffffff;
+}
+
+.sections {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+.heading {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Comfortaa';
+}
+
+.nav-link {
+    outline: none;
+    text-decoration: none;
+  }
+  
+.section_heading {
+    margin-right: 25px;
+    font-weight: 450;
+}

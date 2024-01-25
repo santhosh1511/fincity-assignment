@@ -1,0 +1,71 @@
+.project_show {
+    width: 80%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 80px;
+    background-color: white;
+}
+
+.content {
+    margin-bottom: 30px;
+    max-width: 50%;
+    padding: 40px;
+   
+}
+
+.project_title {
+    font-family: Playfair Display;
+    font-weight: 700;
+    font-size: 48px;
+    color: #25282B;
+}
+
+.project_content {
+    font-family: Playfair Display;
+    font-weight: 400;
+    font-size: 18px;
+    color: #828282;
+}
+
+
+.view {
+    background-color: transparent;
+    font-family: "Roboto";
+    font-weight: 500;
+    border:1px solid;
+    padding: 8px;
+    border-radius: 24px;
+    width: Hug (150px);
+    height: Hug (43px);
+    padding: 8px, 24px, 8px, 24px;
+
+
+}
+
+.picture {
+    max-width: 50%;
+    overflow: hidden;
+}
+
+.field_picture {
+    
+    border-left: 8px;
+    border-right: 8px;
+}
+@media  screen and (max-width:600px) {
+    .project_show{
+        flex-direction: column;
+    }
+    .content{
+        max-width: 70vw;
+        text-align: center;
+    }
+    .picture{
+        max-width: 80vw;
+    }
+    
+}
